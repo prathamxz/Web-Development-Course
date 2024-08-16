@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS ANIMATIONS</title>
+    <style>
+        .container{
+            background-color: aquamarine;
+            height: 80vh;
+            width: 30vw;
+
+        }
+        .box{
+            height: 45px;
+            width: 35px;
+            background-color: blueviolet;
+            animation: meraanimation;
+            animation-duration: 5s ;
+            animation-iteration-count: infinite;
+            animation-timing-function: cubic-bezier(0.5,-0.14, 0.73, 0.36);
+            animation-delay: 2s;
+            /* animation-direction: alternate-reverse; */
+            animation-play-state: paused;
+            animation-play-state: running;
+        }
+        @keyframes meraanimation{
+
+            from{
+                background-color: red;
+
+            }
+        to{
+            transform: translateX(1000px);
+            background-color: yellow;
+        }
+         
+        }
+    
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            Box
+        </div>
+    </div>
+</body>
+</html>

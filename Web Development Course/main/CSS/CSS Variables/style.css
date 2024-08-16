@@ -1,0 +1,34 @@
+nav {
+    background-color: var(--color);
+}
+:root {
+    --color: rgb(65, 65, 164);
+    --seccolor: rgb(131, 56, 171);
+}
+.container {
+    background-color: var(--seccolor);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+    padding: 34px;
+    border: 2px solid var(--seccolor);
+    background-color: darkgoldenrod;
+    /* opacity: ; */
+    
+}
+ul li :first-child{
+    /* background-color: var(--seccolor); */
+    /* --color: rgb(60, 18, 18); */
+    background-color: orangered;
+}
+
+ul {
+    display: flex;
+}
+

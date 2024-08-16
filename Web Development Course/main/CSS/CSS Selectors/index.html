@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS SELECTORS</title>
+    <style>
+        /* Element selectors */
+        /* div{
+            background-color: red;
+        } */
+
+
+        /* class selector */
+        .red{
+            background-color: red;
+        }
+        
+
+        /* ID SELECTOR */
+
+        #green{
+            background-color: green;
+        }
+
+        /* CHILD SELECTOR */
+        div > p{
+        color: blue;
+        background-color: brown;     
+        }
+
+        /* descedent selector */
+        div p{
+            background-color: yellow;
+            color: black;
+        }
+
+
+        /* UNIVERSAL SELECTOR */
+        *{
+            margin-top: 1ch;
+            padding: 1cm;
+        }
+
+        /* PSUEDO SELECTOR */
+        a:visited{
+            color: black;
+            background-color: yellow;
+        }
+
+        a:link{
+            color: rgb(10, 19, 182);
+
+        }
+        a:active{
+            background-color: white;
+        }
+
+        a:hover{
+            color: brown;
+        }
+        
+
+
+    </style>
+</head>
+<body>
+    <div class="red">
+        I'm a div 
+        <article>
+            im paradise
+        </article>
+        <p>hello mister</p>
+        <p>hello sir</p>
+    </div>
+    <div id="green">
+        Hello Lorem, ipsum dolor sit amet consectetur adipisicing elit. In, animi?
+        <p>Hello</p>
+        <a href="https://www.google.co.in/">Google.com</a>
+        <a href="https://www.facebook.co.in/">Facebook.com</a>
+    </div>
+
+    
+        
+    
+</body>
+</html>

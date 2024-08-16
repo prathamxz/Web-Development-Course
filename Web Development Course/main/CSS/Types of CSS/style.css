@@ -1,0 +1,12 @@
+h1{
+    background-color: yellow;
+    color: red;
+}
+ol{
+    background-color: violet;
+    color: rgb(88, 39, 8);
+}
+p{
+    font-size: large;
+    font-style: italic;
+}
